@@ -9,3 +9,15 @@
 /Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/obj/Debug/net9.0/refint/Exam.Domain.dll
 /Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/obj/Debug/net9.0/Exam.Domain.pdb
 /Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/obj/Debug/net9.0/ref/Exam.Domain.dll
+D:\GitHubReps\git\Exam.Domain\bin\Debug\net9.0\Exam.Domain.deps.json
+D:\GitHubReps\git\Exam.Domain\bin\Debug\net9.0\Exam.Domain.dll
+D:\GitHubReps\git\Exam.Domain\bin\Debug\net9.0\Exam.Domain.pdb
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\Exam.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\Exam.Domain.AssemblyInfoInputs.cache
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\Exam.Domain.AssemblyInfo.cs
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\Exam.Domain.csproj.CoreCompileInputs.cache
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\Exam.Domain.sourcelink.json
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\Exam.Domain.dll
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\refint\Exam.Domain.dll
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\Exam.Domain.pdb
+D:\GitHubReps\git\Exam.Domain\obj\Debug\net9.0\ref\Exam.Domain.dll

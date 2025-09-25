@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj": {}
+    "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj": {}
   },
   "projects": {
-    "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj": {
+    "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj",
+        "projectUniqueName": "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj",
         "projectName": "Exam.Domain",
-        "projectPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj",
-        "packagesPath": "/Users/fsdf/.nuget/packages/",
-        "outputPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/obj/",
+        "projectPath": "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj",
+        "packagesPath": "C:\\Users\\irgas\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubReps\\git\\Exam.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/fsdf/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\irgas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -59,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/fsdf/.dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

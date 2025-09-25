@@ -12,8 +12,9 @@ public static class RegisterDependencies
     public static IServiceCollection RegisterInfrasctructureServices(this IServiceCollection services, IConfiguration configuration)
     {
         services.AddScoped<IStudentServices, StudentService>();
+        services.AddScoped<ITeacherService, TeacherService>();
         var connectionString = configuration.GetConnectionString("Default");
-        services.AddDbContext<IDbContext, DataContext>(options => options.UseNpgsql(connectionString));
+        services.AddDbContext<IDbContext,DataContext>(options => options.UseNpgsql(connectionString));
         return services;
     }
 }

@@ -1,4 +1,7 @@
+using Exam.Application.Abstractions;
 using Exam.Infrastryctyre;
+using Exam.Infrastryctyre.Data;
+using Exam.Infrastryctyre.Data.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 

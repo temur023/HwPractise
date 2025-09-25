@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Infrastructure/Exam.Infrastructure.csproj": {}
+    "D:\\GitHubReps\\git\\Exam.Infrastructure\\Exam.Infrastructure.csproj": {}
   },
   "projects": {
-    "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/Exam.Application.csproj": {
+    "D:\\GitHubReps\\git\\Exam.Application\\Exam.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/Exam.Application.csproj",
+        "projectUniqueName": "D:\\GitHubReps\\git\\Exam.Application\\Exam.Application.csproj",
         "projectName": "Exam.Application",
-        "projectPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/Exam.Application.csproj",
-        "packagesPath": "/Users/fsdf/.nuget/packages/",
-        "outputPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/",
+        "projectPath": "D:\\GitHubReps\\git\\Exam.Application\\Exam.Application.csproj",
+        "packagesPath": "C:\\Users\\irgas\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubReps\\git\\Exam.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/fsdf/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\irgas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj": {
-                "projectPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj"
+              "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj": {
+                "projectPath": "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj"
               }
             }
           }
@@ -69,26 +75,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/fsdf/.dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj": {
+    "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj",
+        "projectUniqueName": "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj",
         "projectName": "Exam.Domain",
-        "projectPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/Exam.Domain.csproj",
-        "packagesPath": "/Users/fsdf/.nuget/packages/",
-        "outputPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Domain/obj/",
+        "projectPath": "D:\\GitHubReps\\git\\Exam.Domain\\Exam.Domain.csproj",
+        "packagesPath": "C:\\Users\\irgas\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubReps\\git\\Exam.Domain\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/fsdf/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\irgas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -128,34 +140,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/fsdf/.dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Infrastructure/Exam.Infrastructure.csproj": {
+    "D:\\GitHubReps\\git\\Exam.Infrastructure\\Exam.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Infrastructure/Exam.Infrastructure.csproj",
+        "projectUniqueName": "D:\\GitHubReps\\git\\Exam.Infrastructure\\Exam.Infrastructure.csproj",
         "projectName": "Exam.Infrastructure",
-        "projectPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Infrastructure/Exam.Infrastructure.csproj",
-        "packagesPath": "/Users/fsdf/.nuget/packages/",
-        "outputPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Infrastructure/obj/",
+        "projectPath": "D:\\GitHubReps\\git\\Exam.Infrastructure\\Exam.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\irgas\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHubReps\\git\\Exam.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/Users/fsdf/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\irgas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/Exam.Application.csproj": {
-                "projectPath": "/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/Exam.Application.csproj"
+              "D:\\GitHubReps\\git\\Exam.Application\\Exam.Application.csproj": {
+                "projectPath": "D:\\GitHubReps\\git\\Exam.Application\\Exam.Application.csproj"
               }
             }
           }
@@ -211,7 +229,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/Users/fsdf/.dotnet/sdk/9.0.304/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
