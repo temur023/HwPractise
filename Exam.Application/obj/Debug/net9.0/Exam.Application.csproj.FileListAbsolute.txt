@@ -1,0 +1,15 @@
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/bin/Debug/net9.0/Exam.Application.deps.json
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/bin/Debug/net9.0/Exam.Application.dll
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/bin/Debug/net9.0/Exam.Application.pdb
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/bin/Debug/net9.0/Exam.Domain.dll
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/bin/Debug/net9.0/Exam.Domain.pdb
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.Application.csproj.AssemblyReference.cache
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.Application.AssemblyInfoInputs.cache
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.Application.AssemblyInfo.cs
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.Application.csproj.CoreCompileInputs.cache
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.App.914ACFA5.Up2Date
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.Application.dll
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/refint/Exam.Application.dll
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/Exam.Application.pdb
+/Users/fsdf/Documents/Alif/ExamRecapByTeacher/Exam.Application/obj/Debug/net9.0/ref/Exam.Application.dll
