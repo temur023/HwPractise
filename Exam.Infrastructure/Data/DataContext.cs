@@ -16,6 +16,7 @@ public class DataContext:DbContext,IDbContext
     public DbSet<Subject> Subjects { get; set; }
     public DbSet<TimeTable> TimeTables { get; set; }
     public DbSet<Attendance> Attendances { get; set; }
+    public DbSet<StudentIssue> StudentIssues { get; set; }
 
     public DataContext(DbContextOptions<DataContext> options):base(options) { }
     protected override void OnModelCreating(ModelBuilder modelBuilder)

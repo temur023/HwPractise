@@ -15,5 +15,6 @@ public interface IDbContext
     DbSet<Subject> Subjects{ get; set; }
     DbSet<TimeTable> TimeTables{ get; set; }
     DbSet<Attendance> Attendances { get; set; }
+    DbSet<StudentIssue> StudentIssues { get; set; }
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 }

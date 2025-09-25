@@ -12,8 +12,8 @@ public class StudentService(IDbContext context):IStudentServices
         var list = await context.Students.Select(e => new StudentGetDto()
         {
             Id = e.Id,
-            BirthDate = e.BirthDate,
-            EnrollementDate = e.EnrollementDate,
+            BirthDate = e.BirthDate.ToUniversalTime(),
+            EnrollementDate = e.EnrollementDate.ToUniversalTime(),
             FirstName = e.FirstName,
             LastName = e.LastName                                           
         }).ToListAsync();
@@ -27,8 +27,8 @@ public class StudentService(IDbContext context):IStudentServices
         return new StudentGetDto()
         {
             Id = student.Id,
-            BirthDate = student.BirthDate,
-            EnrollementDate = student.EnrollementDate,
+            BirthDate = student.BirthDate.ToUniversalTime(),
+            EnrollementDate = student.EnrollementDate.ToUniversalTime(),
             FirstName = student.FirstName,
             LastName = student.LastName
         };
@@ -38,8 +38,8 @@ public class StudentService(IDbContext context):IStudentServices
     {
         var model = new Student()
         {
-            BirthDate = student.BirthDate,
-            EnrollementDate = DateTime.Now,
+            BirthDate = student.BirthDate.ToUniversalTime(),
+            EnrollementDate = DateTime.Now.ToUniversalTime(),
             FirstName = student.FirstName,
             LastName = student.LastName
         };
@@ -48,8 +48,8 @@ public class StudentService(IDbContext context):IStudentServices
         return new StudentGetDto()
         {
             Id = model.Id,
-            BirthDate = student.BirthDate,
-            EnrollementDate = student.EnrollementDate,
+            BirthDate = student.BirthDate.ToUniversalTime(),
+            EnrollementDate = student.EnrollementDate.ToUniversalTime(),
             FirstName = student.FirstName,
             LastName = student.LastName
         };
@@ -66,8 +66,8 @@ public class StudentService(IDbContext context):IStudentServices
         return new StudentGetDto()
         {
             Id = exist.Id,
-            BirthDate = student.BirthDate,
-            EnrollementDate = student.EnrollementDate,
+            BirthDate = student.BirthDate.ToUniversalTime(),
+            EnrollementDate = student.EnrollementDate.ToUniversalTime(),
             FirstName = student.FirstName,
             LastName = student.LastName
         };

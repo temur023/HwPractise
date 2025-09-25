@@ -40,7 +40,6 @@ namespace Exam.Infrastryctyre.Migrations
                         .HasColumnType("integer");
 
                     b.Property<string>("Reason")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<int>("StudentId")
@@ -267,7 +266,7 @@ namespace Exam.Infrastryctyre.Migrations
 
                     b.HasKey("ID");
 
-                    b.ToTable("Teacher");
+                    b.ToTable("Teachers");
                 });
 
             modelBuilder.Entity("Exam.Domain.Entities.TimeTable", b =>

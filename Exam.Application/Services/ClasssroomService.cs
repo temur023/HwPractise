@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Exam.Application.Services;
 
-public class IClassroomService(IDbContext context):IClassroomServices
+public class ClassroomService(IDbContext context):IClassroomServices
 {
     public async Task<List<ClassroomGetDto>> Get()
     {

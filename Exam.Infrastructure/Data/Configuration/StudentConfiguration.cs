@@ -8,6 +8,7 @@ public class StudentConfiguration:IEntityTypeConfiguration<Student>
 {
     public void Configure(EntityTypeBuilder<Student> builder)
     {
+
         //Key we don't need because it automatically links
         builder.Property(s => s.FirstName).HasMaxLength(60);
         builder.Property(s => s.LastName).HasMaxLength(60);

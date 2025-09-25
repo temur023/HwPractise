@@ -5,7 +5,7 @@ public class StudentGetDto
     public int Id{ get; set; }
     public string FirstName { get; set; }
     public string LastName { get; set; }
-    public DateTime BirthDate { get; set; }
-    public DateTime EnrollementDate { get; set; }
+    public DateTimeOffset BirthDate { get; set; }
+    public DateTimeOffset  EnrollementDate { get; set; }
     
 }

@@ -14,7 +14,7 @@ public class TeacherService(IDbContext context):ITeacherService
             ID = e.ID,
             FirstName = e.FirstName,
             LastName = e.LastName,
-            HireDate = e.HireDate
+            HireDate = e.HireDate.ToUniversalTime()
         }).ToListAsync();
         return list;
     }
@@ -28,7 +28,7 @@ public class TeacherService(IDbContext context):ITeacherService
             ID = teacher.ID,
             FirstName = teacher.FirstName,
             LastName = teacher.LastName,
-            HireDate = teacher.HireDate
+            HireDate = teacher.HireDate.ToUniversalTime()
         };
     }
 
@@ -38,7 +38,7 @@ public class TeacherService(IDbContext context):ITeacherService
         {
             FirstName = teacher.FirstName,
             LastName = teacher.LastName,
-            HireDate = teacher.HireDate
+            HireDate = teacher.HireDate.ToUniversalTime()
         };
         await context.Teachers.AddAsync(model);
         await context.SaveChangesAsync();
@@ -47,7 +47,7 @@ public class TeacherService(IDbContext context):ITeacherService
             ID = model.ID,
             FirstName = teacher.FirstName,
             LastName = teacher.LastName,
-            HireDate = teacher.HireDate
+            HireDate = teacher.HireDate.ToUniversalTime()
         };
     }
 
@@ -63,7 +63,7 @@ public class TeacherService(IDbContext context):ITeacherService
             ID = exist.ID,
             FirstName = teacher.FirstName,
             LastName = teacher.LastName,
-            HireDate = teacher.HireDate
+            HireDate = teacher.HireDate.ToUniversalTime()
         };
     }
 
