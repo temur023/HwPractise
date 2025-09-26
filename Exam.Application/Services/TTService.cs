@@ -34,6 +34,11 @@ public class TTService(IDbContext context):ITTService
 
     public async Task<TimeTableGetDto> Add(TimeTableCreateDto tt)
     {
+        var subject = await context.Subjects.FindAsync(tt.SubjectId);
+        if (subject== null) throw new Exception("Subject not found!");
+        var teacher = await context.Teachers.FindAsync(tt.TeacherId);
+        if (subject== null) throw new Exception("Teacher not found!");
+        
         var model = new TimeTable()
         {
             ClassroomId = tt.ClassroomId,

@@ -39,6 +39,13 @@ public class AttendanceService(IDbContext context):IAttendanceService
 
     public async Task<AttendanceGetDto> Add(AttendanceCreateDto attendance)
     {
+        var group = await context.Groups.FindAsync(attendance.GroudId);
+        if (group == null) throw new Exception("Group not found!");
+        var student = await context.Students.FindAsync(attendance.StudentId);
+        if (student == null) throw new Exception("Student not found!");
+        var subject = await context.Subjects.FindAsync(attendance.SubjectId);
+        if (subject == null) throw new Exception("Subject not found!");
+        
         var model = new Attendance()
         {
             GroudId = attendance.GroudId,

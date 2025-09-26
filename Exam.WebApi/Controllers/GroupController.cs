@@ -29,7 +29,7 @@ public class GroupController(IGroupServices service):Controller
     {
         return Ok(await service.Update(group)); 
     }
-    [HttpDelete("get-all")]
+    [HttpDelete("Delete")]
     public async Task<IActionResult> Delete(int id)
     {
         return Ok(await service.Delete(id));

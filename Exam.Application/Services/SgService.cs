@@ -37,6 +37,11 @@ public class SgService(IDbContext context):ISgService
 
     public async Task<StudentGroupGetDto> Add(StudentGroupCreateDto sg)
     {
+        var student = await context.Students.FindAsync(sg.StudentId);
+        if (student== null) throw new Exception("Student not found!");
+        var group = await context.Groups.FindAsync(sg.GroudId);
+        if (group== null) throw new Exception("Group not found!");
+        
         var model = new StudentGroup()
         {
             GroudId = sg.GroudId,

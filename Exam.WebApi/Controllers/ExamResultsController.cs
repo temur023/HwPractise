@@ -30,7 +30,7 @@ public class ExamResultsController(IExamResultsService service):Controller
     {
         return Ok(await service.Update(exam)); 
     }
-    [HttpDelete("get-all")]
+    [HttpDelete("Delete")]
     public async Task<IActionResult> Delete(int id)
     {
         return Ok(await service.Delete(id));

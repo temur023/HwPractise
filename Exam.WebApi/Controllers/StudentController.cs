@@ -31,7 +31,7 @@ public async Task<IActionResult> Update(StudentCreateDto student)
 {
     return Ok(await studentServices.Update(student)); 
 }
-[HttpDelete("get-all")]
+[HttpDelete("Delete")]
 public async Task<IActionResult> Delete(int id)
 {
     return Ok(await studentServices.Delete(id));

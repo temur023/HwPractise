@@ -34,6 +34,9 @@ public class ExamService(IDbContext context):IExamService
 
     public async Task<ExamGetDto> Add(ExamCreateDto exam)
     {
+        var subject = await context.Subjects.FindAsync(exam.SubjectId);
+        if (subject == null) throw new Exception("Subject not found!");
+        
         var model = new Domain.Entities.Exam()
         {
             SubjectId = exam.SubjectId,

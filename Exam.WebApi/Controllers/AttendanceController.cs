@@ -29,7 +29,7 @@ public class AttendanceController(IAttendanceService service):Controller
     {
         return Ok(await service.Update(attendance)); 
     }
-    [HttpDelete("get-all")]
+    [HttpDelete("Delete")]
     public async Task<IActionResult> Delete(int id)
     {
         return Ok(await service.Delete(id));

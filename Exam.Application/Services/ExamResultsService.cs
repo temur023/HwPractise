@@ -36,6 +36,11 @@ public class ExamResultsService(IDbContext context) : IExamResultsService
 
     public async Task<ExamResultsGetDto> Add(ExamResultsCreateDto exam)
     {
+        var subject = await context.Subjects.FindAsync(exam.SubjectId);
+        if (subject == null) throw new Exception("Subject not found!"); 
+        var examm = await context.Exams.FindAsync(exam.ExamId);
+        if (examm == null) throw new Exception("Exam not found!");
+        
         var model = new ExamResult()
         {
             SubjectId = exam.SubjectId,

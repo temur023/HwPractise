@@ -30,7 +30,7 @@ public class TimeTableController(ITTService service):Controller
     {
         return Ok(await service.Update(tt)); 
     }
-    [HttpDelete("get-all")]
+    [HttpDelete("Delete")]
     public async Task<IActionResult> Delete(int id)
     {
         return Ok(await service.Delete(id));

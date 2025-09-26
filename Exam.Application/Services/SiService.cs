@@ -34,6 +34,9 @@ public class SiService(IDbContext context):ISiService
 
     public async Task<SiGetDto> Add(SiCreateDto si)
     {
+        var student = await context.Students.FindAsync(si.StudentId);
+        if (student== null) throw new Exception("Student not found!");
+    
         var model = new StudentIssue()
         {
             StudentId = si.StudentId,
@@ -41,6 +44,7 @@ public class SiService(IDbContext context):ISiService
             Description = si.Description
         };
         await context.StudentIssues.AddAsync(model);
+        await context.SaveChangesAsync();
         return new SiGetDto()
         {
             Id = model.Id,
